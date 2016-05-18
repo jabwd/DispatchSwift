@@ -1,6 +1,5 @@
-module LibreSSL [system] {
+module DispatchSwift [system] {
     header "headers.h"
-    link "crypto"
-    link "tls"
+    link "dispatch"
     export *
 }
