@@ -1,5 +1,6 @@
 module DispatchSwift [system] {
     header "headers.h"
     link "dispatch"
+    link "pthread_workqueue"
     export *
 }
